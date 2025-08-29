@@ -1,0 +1,14 @@
+public class EvenOddCheck {
+    public static void main(String[] args) {
+        System.out.println(checkEvenOrOdd(4));  // Output: Even
+        System.out.println(checkEvenOrOdd(7));  // Output: Odd
+    }
+
+    public static String checkEvenOrOdd(int num) {
+        if ((num & 1) == 0) {
+            return "Even";
+        } else {
+            return "Odd";
+        }
+    }
+}
