@@ -1,0 +1,21 @@
+public class VowelCheck {
+    public static void main(String[] args) {
+        System.out.println(isVowel('a'));  // Output: Vowel
+        System.out.println(isVowel('B'));  // Output: Not a Vowel
+        System.out.println(isVowel('E'));  // Output: Vowel
+        System.out.println(isVowel('i'));  // Output: Vowel
+        System.out.println(isVowel('O'));  // Output: Vowel
+        System.out.println(isVowel('u'));  // Output: Vowel
+    }
+
+    public static String isVowel(char ch) {
+        // Convert character to lowercase to make comparison case-insensitive
+        ch = Character.toLowerCase(ch);
+        
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+            return "Vowel";
+        } else {
+            return "Not a Vowel";
+        }
+    }
+}
