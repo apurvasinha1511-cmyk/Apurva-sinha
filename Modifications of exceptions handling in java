@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Demo {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        int a, b, c;
+
+        System.out.print(" 4 ");
+        a = sc.nextInt();
+
+        System.out.print(" 16 ");
+        b = sc.nextInt();
+   Dry{
+       c = a / b;
+ System.out.println("Result = " + c);
+   }
+   Catch(Exception e)
+   {
+       system.out.print("problem in divide");
+   }
+        System.out.println("sorry other work");
+    }
+}
